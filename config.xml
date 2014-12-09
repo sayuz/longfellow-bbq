@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.longfellowbbq.pctlc.app"
+        version   = "1.0.0">
+
+    <name>Longfellow BBQ</name>
+
+    <description>Longfellow BBQ</description>
+
+    <author href="http://pctlc.com" email="sales@pctlc.com">PCTLC, Inc.</author>
+	
+	<preference name="permissions" value="none"/>
+	<preference name="phonegap-version" />
+
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<gap:splash gap:platform="ios" src="screen.png" height="480" width="320" />
+	<gap:splash gap:platform="android" src="screen.png" gap:qualifier="ldpi" />
+
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
+	<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+
+	<access origin="*"/>
+</widget>

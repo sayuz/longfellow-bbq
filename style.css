@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{padding:0px; margin:0px;}
+.ui-content{margin:0px; padding:0px;}
+iframe{
+margin:0px;
+padding:0px;
+border:none;
+width:100%;
+}
+
